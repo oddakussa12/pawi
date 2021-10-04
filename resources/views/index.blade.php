@@ -12,10 +12,10 @@
     <title>Pawi Health Science Collage</title>
 
     <!-- Styles -->
-    <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ secure_asset('css/fontawesome.css') }}" rel="stylesheet">
-    <link href="{{ secure_asset('css/templatemo-finance-business.css') }}" rel="stylesheet">
-    <link href="{{ secure_asset('css/owl.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/fontawesome.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/templatemo-finance-business.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/owl.css') }}" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
       /*#######################  gap css ####################*/
@@ -665,15 +665,15 @@ https://templatemo.com/tm-545-finance-business
     </div>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="{{ secure_asset('js/jquery/jquery.min.js') }}" defer></script>
-    <script src="{{ secure_asset('/js/jquery/bootstrap.bundle.min.js')}}" defer></script>
+    <script src="{{ asset('js/jquery/jquery.min.js') }}" defer></script>
+    <script src="{{ asset('/js/jquery/bootstrap.bundle.min.js')}}" defer></script>
 
     <!-- Additional Scripts -->
-    <script src="{{ secure_asset('js/app.js') }}" defer></script>
-    <script src="{{ secure_asset('/js/custom.js')}}" defer></script>
-    <script src="{{ secure_asset('js/owl.js') }}" defer></script>
-    <script src="{{ secure_asset('/js/slick.js')}}" defer></script>
-    <script src="{{ secure_asset('/js/accordions.js')}}" defer></script>
+    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('/js/custom.js')}}" defer></script>
+    <script src="{{ asset('js/owl.js') }}" defer></script>
+    <script src="{{ asset('/js/slick.js')}}" defer></script>
+    <script src="{{ asset('/js/accordions.js')}}" defer></script>
 
 
     <script language = "text/Javascript"> 
