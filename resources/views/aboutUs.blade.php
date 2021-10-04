@@ -12,10 +12,10 @@
     <title>Pawi Health Science Collage</title>
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/fontawesome.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/templatemo-finance-business.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/owl.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/fontawesome.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/templatemo-finance-business.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/owl.css') }}" rel="stylesheet">
 <!--
 
 Finance Business TemplateMo
@@ -357,15 +357,15 @@ https://templatemo.com/tm-545-finance-business
     
 
     <!-- Bootstrap core JavaScript -->
-    <script src="{{ asset('js/jquery/jquery.min.js') }}" defer></script>
-    <script src="{{ asset('/js/jquery/bootstrap.bundle.min.js')}}" defer></script>
+    <script src="{{ secure_asset('js/jquery/jquery.min.js') }}" defer></script>
+    <script src="{{ secure_asset('/js/jquery/bootstrap.bundle.min.js')}}" defer></script>
 
     <!-- Additional Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-    <script src="{{ asset('/js/custom.js')}}" defer></script>
-    <script src="{{ asset('js/owl.js') }}" defer></script>
-    <script src="{{ asset('/js/slick.js')}}" defer></script>
-    <script src="{{ asset('/js/accordions.js')}}" defer></script>
+    <script src="{{ secure_asset('js/app.js') }}" defer></script>
+    <script src="{{ secure_asset('/js/custom.js')}}" defer></script>
+    <script src="{{ secure_asset('js/owl.js') }}" defer></script>
+    <script src="{{ secure_asset('/js/slick.js')}}" defer></script>
+    <script src="{{ secure_asset('/js/accordions.js')}}" defer></script>
 
     <script language = "text/Javascript"> 
       cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
