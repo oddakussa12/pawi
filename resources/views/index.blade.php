@@ -125,8 +125,9 @@ https://templatemo.com/tm-545-finance-business
         <div class="row">
           <div class="col-md-8 col-xs-12">
             <ul class="left-info">
-              <li><a href="#"><i class="fa fa-clock-o"></i>Mon-Fri 09:00-17:00</a></li>
-              <li><a href="#"><i class="fa fa-phone"></i>090-080-0760</a></li>
+              <li><a href="#"><i class="fa fa-clock-o"></i>Mon-Fri 02:30-11:30</a></li>
+              <li><a href="#"><i class="fa fa-phone"></i>0585500193</a></li>
+              <li><a href="#"><i class="fa fa-fax"></i>0585500298</a></li>
             </ul>
           </div>
           <div class="col-md-4">
@@ -181,9 +182,9 @@ https://templatemo.com/tm-545-finance-business
           <div class="item item-1">
             <div class="img-fill">
                 <div class="text-content">
-                  <h6>we are ready to help you</h6>
-                  <h4>Financial Analysis<br>&amp; Consulting</h4>
-                  <p>This finance HTML template is 100% free of charge provided by TemplateMo for everyone. This is a multiple-page version with different HTML pages. <a href="one-page.html">One-page version</a> is available as of 2021 February.</p>
+                  {{-- <h6>we are ready to help you</h6> --}}
+                  <h4>Welcome to<br>&amp; our COLLAGE</h4>
+                  <p></p>
                   <a href="contact.html" class="filled-button">contact us</a>
                 </div>
             </div>
@@ -222,7 +223,7 @@ https://templatemo.com/tm-545-finance-business
         <div class="row">
           <div class="col-md-8">
             <h4>Request a call back right now ?</h4>
-            <span>Mauris ut dapibus velit cras interdum nisl ac urna tempor mollis.</span>
+            <span>We love to hear from you. Fell free to reach us.</span>
           </div>
           <div class="col-md-4">
             <a href="contact.html" class="border-button">Contact Us</a>
@@ -338,7 +339,7 @@ https://templatemo.com/tm-545-finance-business
       </div>
     </div>
 
-    <div class="services">
+    {{-- <div class="services">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -380,7 +381,7 @@ https://templatemo.com/tm-545-finance-business
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
 
     <div class="fun-facts">
       <div class="container">
@@ -439,10 +440,26 @@ https://templatemo.com/tm-545-finance-business
                 </div>
                 <div class="col-md-6 align-self-center">
                   <div class="right-content">
-                    <span>Who we are</span>
-                    <h2>Get to know about <em>our company</em></h2>
-                    <p>Curabitur pulvinar sem a leo tempus facilisis. Sed non sagittis neque. Nulla conse quat tellus nibh, id molestie felis sagittis ut. Nam ullamcorper tempus ipsum in cursus<br><br>Praes end at dictum metus. Morbi id hendrerit lectus, nec dapibus ex. Etiam ipsum quam, luctus eu egestas eget, tincidunt</p>
-                    <a href="#" class="filled-button">Read More</a>
+                    <span>SUCCESS STORY</span>
+                    <h2>Our achievements  <em>of 2009/10</em></h2>
+                    <p><i class="fa fa-check" aria-hidden="true" style="padding-right:5px;"></i>
+                      college started post graduate degree program by affiliation with Bahirdar University
+                      <br><br><i class="fa fa-check" aria-hidden="true" style="padding-right:5px;"></i>
+                      The college trained 160 health professional on CRC
+                      <br><br><i class="fa fa-check" aria-hidden="true" style="padding-right:5px;"></i>
+                      54 health professionals on malaria disease
+                      <br><br><i class="fa fa-check" aria-hidden="true" style="padding-right:5px;"></i>
+                      Department expansion  like Laboratory technician
+                      <br><br><i class="fa fa-check" aria-hidden="true" style="padding-right:5px;"></i>
+                      Making welcoming environment the college
+                      <br><br><i class="fa fa-check" aria-hidden="true" style="padding-right:5px;"></i>
+                      The collage has built it's own Graduation hall
+                      <br><br><i class="fa fa-check" aria-hidden="true" style="padding-right:5px;"></i>
+                      Revision of teacher and student legislation
+                      <br><br><i class="fa fa-check" aria-hidden="true" style="padding-right:5px;"></i>
+                      Fully funded scholar for financially challenged  student in three zone for nine students
+                    </p>
+                    {{-- <a href="#" class="filled-button">Read More</a> --}}
                   </div>
                 </div>
               </div>
@@ -551,7 +568,13 @@ https://templatemo.com/tm-545-finance-business
         </div>
       </div>
     </div>
-
+    <div class="container" style="margin-top:50px;">
+      <div class="row text-center" style="margin-top:150px;">
+          <div class="col-md-4" style="padding-bottom:30px;"><img src="{{ asset('images/partner1.jpg') }}" alt="" ></div>
+          <div class="col-md-4" style="padding-bottom:30px;"><img src="{{ asset('images/partner2.png') }}" alt="" ></div>
+          <div class="col-md-4" style="padding-bottom:30px;"><img src="{{ asset('images/partner3.png') }}" alt="" ></div>
+      </div>
+    </div>
     <div class="partners">
       <div class="container">
         <div class="row">
